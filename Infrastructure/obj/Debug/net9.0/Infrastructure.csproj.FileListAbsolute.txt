@@ -13,3 +13,4 @@ C:\Users\warlo\PagosCQRSDDDDataRest\Infrastructure\obj\Debug\net9.0\Infrastructu
 C:\Users\warlo\PagosCQRSDDDDataRest\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
 C:\Users\warlo\PagosCQRSDDDDataRest\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 C:\Users\warlo\PagosCQRSDDDDataRest\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+C:\Users\warlo\PagosCQRSDDDDataRest\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

@@ -104,3 +104,4 @@ C:\Users\warlo\PagosCQRSDDDDataRest\API\obj\Debug\net9.0\ref\API.dll
 C:\Users\warlo\PagosCQRSDDDDataRest\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\warlo\PagosCQRSDDDDataRest\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\warlo\PagosCQRSDDDDataRest\API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\warlo\PagosCQRSDDDDataRest\API\obj\Debug\net9.0\API.sourcelink.json

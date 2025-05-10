@@ -4,7 +4,7 @@ namespace CQRSDDDDataRest.Domain.Entities
 {
     public static class PagoMapper
     {
-        public static Pago MapearPagoDtoADominio(PagoDto dto)
+        public static Pago? MapearPagoDtoADominio(PagoDto dto)
         {
             if (dto == null) return null;
 
