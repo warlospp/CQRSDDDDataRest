@@ -88,10 +88,10 @@ namespace CQRSDDDDataRest.Domain.Entities
     public class PagoDto
     {
         public int Id { get; set; }
-        public string ClienteId { get; set; }
-        public string Monto { get; set; }  // Aquí es string para evitar problemas
-        public string MetodoPago { get; set; }
+        public required string ClienteId { get; set; }
+        public required string Monto { get; set; }  // Aquí es string para evitar problemas
+        public required string MetodoPago { get; set; }
         public DateTime FechaPago { get; set; }
-        public string Estado { get; set; }
+        public required string Estado { get; set; }
     }   
 }
