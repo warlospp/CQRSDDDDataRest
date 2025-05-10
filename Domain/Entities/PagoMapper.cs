@@ -1,5 +1,3 @@
-using System.Text.Json.Serialization;
-
 namespace CQRSDDDDataRest.Domain.Entities
 {
     public static class PagoMapper

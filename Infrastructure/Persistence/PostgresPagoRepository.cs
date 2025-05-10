@@ -1,6 +1,4 @@
-using Npgsql;
 using CQRSDDDDataRest.Domain.Entities;
-using Microsoft.Extensions.Configuration;
 using CQRSDDDDataRest.Infrastructure.Persistence;
 
 namespace CQRSDDDDataRest.Infrastructure.Repositories
