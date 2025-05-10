@@ -1,0 +1,19 @@
+CREATE TABLE public.pagos (
+    id int,
+    clienteid VARCHAR(25) NOT NULL,
+    monto decimal NOT NULL,
+    metodopago VARCHAR(50),
+    fechapago TIMESTAMP NOT NULL,
+    estado VARCHAR(20)
+);
+
+select * from pagos
+
+CREATE OR REPLACE FUNCTION public.get_clientes(cliente_id VARCHAR)
+RETURNS SETOF public.pagos AS
+$$
+BEGIN
+  RETURN QUERY
+  SELECT * FROM public.pagos WHERE clienteid = cliente_id;
+END;
+$$ LANGUAGE plpgsql;
