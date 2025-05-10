@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.API\\PAGOSCQRSDDDDataRest.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.API\\PAGOSCQRSDDDDataRest.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.API\\PAGOSCQRSDDDDataRest.API.csproj",
+        "projectName": "PAGOSCQRSDDDDataRest.API",
+        "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.API\\PAGOSCQRSDDDDataRest.API.csproj",
+        "packagesPath": "C:\\Users\\warlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\warlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Application\\PAGOSCQRSDDDDataRest.Application.csproj": {
+                "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Application\\PAGOSCQRSDDDDataRest.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Application\\PAGOSCQRSDDDDataRest.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Application\\PAGOSCQRSDDDDataRest.Application.csproj",
+        "projectName": "PAGOSCQRSDDDDataRest.Application",
+        "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Application\\PAGOSCQRSDDDDataRest.Application.csproj",
+        "packagesPath": "C:\\Users\\warlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\warlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\PAGOSCQRSDDDDataRest.Domain.csproj": {
+                "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\PAGOSCQRSDDDDataRest.Domain.csproj"
+              },
+              "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Infrastructure\\PAGOSCQRSDDDDataRest.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Infrastructure\\PAGOSCQRSDDDDataRest.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\PAGOSCQRSDDDDataRest.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\PAGOSCQRSDDDDataRest.Domain.csproj",
+        "projectName": "PAGOSCQRSDDDDataRest.Domain",
+        "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\PAGOSCQRSDDDDataRest.Domain.csproj",
+        "packagesPath": "C:\\Users\\warlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\warlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Infrastructure\\PAGOSCQRSDDDDataRest.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Infrastructure\\PAGOSCQRSDDDDataRest.Infrastructure.csproj",
+        "projectName": "PAGOSCQRSDDDDataRest.Infrastructure",
+        "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Infrastructure\\PAGOSCQRSDDDDataRest.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\warlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\warlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\PAGOSCQRSDDDDataRest.Domain.csproj": {
+                "projectPath": "C:\\Users\\warlo\\PagosCQRSDDDDataRest\\PAGOSCQRSDDDDataRest.Domain\\PAGOSCQRSDDDDataRest.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
